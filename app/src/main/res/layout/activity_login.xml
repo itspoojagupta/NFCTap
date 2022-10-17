@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F3F0F0"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_hitachi_heading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Log in"
+        android:textColor="@color/color_333333"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:inputType="textWebPassword"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Forgot password?"
+        android:layout_marginEnd="20dp"
+        android:gravity="end"
+        android:textColor="#F44336"/>
+
+    <View
+        android:layout_width="110dp"
+        android:layout_height="1dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:background="#F44336" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_text_red"
+        android:text="Log In"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Become an airCloud TAP user today!"
+        android:textColor="#433F3F"
+        android:gravity="center"
+        android:textSize="18dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:text="Sign Up"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

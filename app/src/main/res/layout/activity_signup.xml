@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F3F0F0"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_hitachi_heading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textColor="@color/color_333333"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="First Name"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Last Name"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Email"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Company Name"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Region"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Captcha"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/colorTextInput"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="14dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_text_red"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
