@@ -36,12 +36,35 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="">
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_btn_red">
 
-        <ImageView
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="get started"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_text_pink"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="login"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/color_cursor"/>
+
     </LinearLayout>
 
 
