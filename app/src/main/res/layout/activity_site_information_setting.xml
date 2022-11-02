@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F3F0F0"
+    android:orientation="vertical">
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/model_name"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/serial_no."
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/site_name"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/odu_site_no."
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/gps_location_information"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="@string/note"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:textColor="@color/button_redcolor"
+      android:textSize="20dp"
+      android:text="__ __"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Refrigerant Amount (Installation) kg"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Refrigerant Change (Service Additional)kg"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"/>
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text="Refrigerant Amount (Current)kg"
+      android:textColor="@color/color_333333"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
