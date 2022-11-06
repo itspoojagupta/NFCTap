@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tharapy $ Care"
+        android:textColor="@color/button_grey"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hosted by helen tyler Learn about Christian news around the world as well as."
+        android:textSize="18dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/button_grey"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edit_text"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="18dp" />
+
+</LinearLayout>

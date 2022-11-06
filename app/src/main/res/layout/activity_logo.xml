@@ -21,7 +21,7 @@
         android:text=" All Your Favourite Dishes"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:gravity="center"
         android:textStyle="bold"/>
 
@@ -33,6 +33,33 @@
         android:textSize="16dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/circle_white" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/circle_white"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/circle_white"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

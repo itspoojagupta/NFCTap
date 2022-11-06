@@ -5,6 +5,7 @@
     android:background="@color/white"
     android:orientation="vertical">
 
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
-        android:text="Login Now"
+        android:text="Sing Up"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -27,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:text="Please login to continue using our app"
+        android:text="Please Sign up to enter in a app"
         android:textColor="@color/dark_grey"
         android:textSize="16dp" />
 
@@ -129,37 +130,16 @@
         android:textColor="@color/colorPrimary"
         android:textSize="18dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <RadioButton
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/blue"
-            android:checked="true" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Remember me"
-            android:textColor="@color/black_alpha_40"
-            android:textSize="15dp" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="end"
-            android:text="Forgot Password?"
-            android:textColor="@color/indigo"
-            android:textSize="15dp" />
-
-    </LinearLayout>
+        android:padding="10dp"
+        android:buttonTint="@color/blue"
+        android:checked="true"
+        android:text="I agree with privcy policy" />
 
     <Button
         android:layout_width="match_parent"
@@ -168,7 +148,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/bg_blue"
-        android:text="Login"
+        android:text="Sign up"
         android:textAllCaps="false"
         android:textColor="@color/button_grey"
         android:textSize="18dp" />
@@ -184,18 +164,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="Already have an account?"
             android:textColor="@color/black_alpha_40"
             android:textSize="16dp" />
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Register now"
+            android:text=" Login now"
             android:textColor="@color/indigo"
             android:textSize="16dp" />
 
     </LinearLayout>
+
 
 </LinearLayout>
